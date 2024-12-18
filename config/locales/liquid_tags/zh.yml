@@ -1,0 +1,43 @@
+---
+zh:
+  liquid_tags:
+    asciinema_tag:
+      invalid_asciinema_id: '无效的 Asciinema ID：%{id}'
+    blogcast_tag:
+      invalid_blogcast_id: 无效的 Blogcast ID
+    codepen_tag:
+      invalid_codepen_url: 无效的 CodePen URL
+      invalid_options: 无效的选项
+    codesandbox_tag:
+      invalid_id: 'CodeSandbox 错误：无效的 ID'
+    comment_tag:
+      invalid_comment: 无效的评论 ID 或 URL
+    gist_tag:
+      invalid_filename: 无效的文件名
+      invalid_format: '无效的 Gist 链接：%{link} 链接必须遵循此格式：https://gist.github.com/username/gist_id'
+      invalid_gist_link: '无效的 Gist 链接：您必须提供一个 Gist 链接'
+    github_tag:
+      github_issue_tag:
+        comment_for: 评论
+        commented_on: 评论于
+        invalid_github_issue_pull: 无效的 GitHub issue、pull request 或评论链接
+        posted_on: 发布于
+      github_readme_tag:
+        invalid_options: 'GitHub 标签：无效选项：%{invalid} | 支持的选项：%{valid}'
+        invalid_github_repository: 无效的 GitHub 仓库路径或 URL
+    unified_embed:
+      tag:
+        invalid_url: 提供的 URL 可能有拼写错误，请检查后重试
+        not_found: 未找到提供的 URL，请检查后重试
+        listings_disabled: 此 Forem 上已禁用列表功能；无法嵌入列表 URL
+        too_many_redirects: 嵌入的链接重定向次数过多。
+    user_subscription_tag:
+      submit: 提交
+      submitting: 提交中...
+      subscribed: 您已经订阅。
+    wikipedia_tag:
+      section_not_found: 找不到维基百科文章的该部分 - %{input}
+      article_not_found: "找不到维基百科文章 - %{input}：%{response_detail}"
+      invalid_wikipedia_url: 无效的维基百科 URL
+    youtube_tag:
+      invalid_youtube_id: 无效的 YouTube ID 或 URL 

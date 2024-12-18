@@ -1,0 +1,5 @@
+---
+zh:
+  decorators:
+    article_decorator:
+      tagged_with: " 标签为 %{cached_tag_list}。" 

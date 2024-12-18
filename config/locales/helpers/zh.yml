@@ -1,0 +1,46 @@
+---
+zh:
+  helpers:
+    label:
+      listing:
+        body_markdown: 正文 Markdown
+        expires_at: 自定义过期日期
+        location: 位置
+        organization_id: 以组织名义发布
+        tag_list: 标签
+        title: 标题
+      organization:
+        name: 名称
+        slug: 用户名
+        profile_image: 个人头像
+        twitter_username: Twitter 用户名
+        github_username: GitHub 用户名
+        url: 网站链接
+        tag_line: 标语
+        summary: 简介
+        location: 位置
+        email: 支持邮箱
+        company_size: 组织规模
+        story: 我们的故事
+        tech_stack: 我们的技术栈
+        cta_body_markdown: 正文文本
+        cta_button_text: 链接文本
+        cta_button_url: 链接地址
+        proof: 证明
+      user:
+        name: 姓名
+    settings_helper:
+      advanced: 高级
+      beginner: 初学者
+      expert: 专家
+      mid_level: 中级
+      novice: 新手
+    social_link_helper:
+      n_a: 不适用
+    admin:
+      user_helper:
+        today: 今天，%{date}
+        yesterday: 昨天，%{date}
+        org_join: "，"
+        org_overflow:
+          one: 

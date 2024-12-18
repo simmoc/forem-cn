@@ -1,0 +1,28 @@
+---
+zh:
+  lib:
+    constants:
+      settings:
+        authentication:
+          allowed:
+            description: 是否限制只允许特定邮箱注册？（用逗号分隔列表）
+            placeholder: dev.to, forem.com, codenewbie.org
+          blocked:
+            description: 是否阻止特定域名注册？（用逗号分隔列表）
+          display_list:
+            description: 您是否想显示允许的域名列表，或保持私密？
+          invite_only:
+            description: 只有通过邮件邀请的用户才能加入此社区。
+          new_user_status:
+            description: 您想对新用户应用什么状态？
+            placeholder: 良好信誉
+        user_experience:
+          default_font:
+            description: 确定默认阅读字体（注册用户可以在其 UX 设置中更改）
+          default_locale:
+            description: 确定 Forem 的默认语言和本地化（目前处于实验测试阶段）
+          feed_strategy:
+            description: '确定应用采用的主要信息流算法方式：basic 或 large_forem_experimental（仅适用于 10k+ 会员社区）'
+          feed_style:
+            description: 确定用户看到的默认信息流（丰富内容、更简约等）
+            placeholder: basic, rich, 或 compact 

@@ -1,0 +1,41 @@
+---
+zh:
+  devise:
+    confirmations:
+      confirmed: "您的邮箱已经确认成功。"
+      send_instructions: "几分钟后，您将收到确认邮箱的邮件。"
+      send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，您将在几分钟内收到一封确认账号的邮件。"
+    failure:
+      already_authenticated: "您已经登录。"
+      inactive: "您的账号还未激活。"
+      invalid: "无法登录。"
+      last_attempt: "您还有最后一次尝试机会，再次失败您的账号将被锁定。"
+      locked: "无法登录。"
+      not_found_in_database: "无法登录。"
+      timeout: "您的登录已过期，请重新登录。"
+      unauthenticated: "继续操作前请登录或注册。"
+      unconfirmed: "继续操作前请先确认您的账号。"
+      magic_link_invalid: "登录链接无效或已过期。"
+    mailer:
+      confirmation_instructions:
+        subject: "确认信息"
+      email_changed:
+        subject: "邮箱已修改"
+      password_change:
+        subject: "密码已修改"
+      reset_password_instructions:
+        subject: "重置密码说明"
+      unlock_instructions:
+        subject: "解锁说明"
+      magic_link:
+        subject: "这是您的魔法登录链接 ✨"
+    registrations:
+      agreement:
+        sign_in_html: "登录即表示您同意我们的<a href=\"%{privacy_path}\">隐私政策</a>、<a href=\"%{terms_path}\">使用条款</a>和<a href=\"%{code_of_conduct_path}\">行为准则</a>。"
+        sign_up_html: "注册即表示您同意我们的<a href=\"%{privacy_path}\">隐私政策</a>、<a href=\"%{terms_path}\">使用条款</a>和<a href=\"%{code_of_conduct_path}\">行为准则</a>。"
+      destroyed: "再见！您的账户已成功注销。我们希望很快再见到您。"
+      signed_up: "欢迎！您已注册成功。"
+      signed_up_but_inactive: "您已注册成功。但由于您的账号还未激活，所以无法登录。"
+      signed_up_but_locked: "您已注册成功。但由于您的账号已被锁定，所以无法登录。"
+      signed_up_but_unconfirmed: "一封带有确认链接的邮件已经发送到您的邮箱，请点击链接激活您的账号。"
+      update_needs_confirmation: "您的账号已更新成功，但我 

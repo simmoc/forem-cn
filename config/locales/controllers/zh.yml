@@ -1,0 +1,36 @@
+---
+zh:
+  api_secrets_controller:
+    generated: '您的 API 密钥已生成：%{secret}'
+    revoked: 您的 API 密钥已被撤销。
+  application_controller:
+    bad_request: '错误：无效请求'
+    not_authorized: '错误：未授权'
+    please_sign_in: 请登录
+  articles_controller:
+    deleted: 文章已成功删除。
+  comments_controller:
+    create:
+      success: 已创建
+      failure: 评论已存在
+      authorization_error: 您的权限已被暂停。
+    delete:
+      error: 出现错误；评论未删除。
+      notice: 评论已成功删除。
+    markdown: '您的 markdown 中有错误：%{error}'
+    markdown_html: "<p>😔 您的 markdown 中有错误</p><hr><p>%{error}</p>"
+  stories_controller:
+    404_bio_not_found: 未找到简介
+    searching: "...搜索中"
+  users_controller:
+    removed_admin: "%{name} 不再是管理员。"
+    added_admin: "%{name} 现在是管理员。"
+    provide_email: 请提供电子邮件以删除您的账户。
+    send_export: "导出文件将很快通过电子邮件发送给您。"
+    invalid_secret: 提供的组织密钥无效。
+    username_blank: 用户名不能为空
+    deletion_in_progress: 您已经请求删除账户。请查看您的电子邮件获取进一步说明。
+    joined_org: 您已加入 %{organization_name} 组织。
+    left_org: 您已离开您的组织。
+    deletion_requested: 您已请求删除账户。请查看您的电子邮件获取进一步说明。
+    log_in_to_delete: 您必须登录才能继续删除账户。 

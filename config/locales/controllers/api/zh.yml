@@ -1,0 +1,21 @@
+---
+zh:
+  api:
+    v0:
+      analytics_controller:
+        invalid_date_format: 日期参数 'start' 或 'end' 必须采用 'yyyy-mm-dd' 格式
+        start_missing: 缺少必需的 'start' 参数
+      articles_controller:
+        must_be_json: article 参数必须是 JSON 对象。您提供的 article 是 %{type}
+      follows_controller:
+        followed:
+          one: 关注了 %{count} 个用户
+          other: 关注了 %{count} 个用户
+      health_checks_controller:
+        app_is_up: 应用程序正常运行！
+        database_connected: 数据库已连接
+        database_not_connected: 数据库未连接！
+        redis_connected: Redis 已连接
+        redis_not_connected: Redis 未连接！
+      listings_controller:
+        no_credit: 可用积分不足 

@@ -1,0 +1,36 @@
+---
+zh:
+  mailers:
+    digest_mailer:
+      from: 摘要
+      more_top_posts: 更多%{community}热门帖子
+      more_top_posts_based: 根据您的兴趣推荐的%{community}热门帖子
+      more_top_posts_from: 来自社区的更多热门阅读
+      more_trending_posts: 更多%{community}趋势帖子
+      more_trending_posts_picked: 为您精选的%{community}趋势帖子
+      other_posts: 您可能喜欢的其他帖子
+      other_community_posts: 您可能喜欢的其他%{community}帖子
+      other_top_posts: 其他热门帖子
+      other_trending_posts: 其他趋势帖子
+    custom_mailer:
+      from: 新闻通讯
+    notify_mailer:
+      account_deleted: "%{community} - 账户删除确认"
+      deletion_requested: "%{community} - 已请求删除账户"
+      trusted: 恭喜！您现在是%{community}的"受信任"用户！
+      base_subscriber: 恭喜！您现在已订阅  %{community_name}++
+      moderator: "恭喜！您现在是 #%{tag_name} 的版主"
+      new_follower: 在%{community}上关注了您
+      new_mention: "%{name}在他们的%{type}中提到了您"
+      org_deleted: "%{community} - 组织删除确认"
+      new_reply: "%{name}回复了您的%{type}"
+      feedback: 感谢您对%{community}的反馈
+      export: 您的内容导出已就绪
+      unread_notifications:
+        one: "🔥 您在%{community}上有%{count}条未读通知"
+        other: "🔥 您在%{community}上有%{count}条未读通知"
+      new_badge: 您获得了一个新徽章
+      video_upload: 您的视频上传已完成
+    verification_mailer:
+      from: "%{community}邮箱验证 <%{email}>"
+      verify_ownership: 验证您的%{community}账户所有权 

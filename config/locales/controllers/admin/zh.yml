@@ -1,0 +1,39 @@
+---
+zh:
+  admin:
+    articles_controller:
+      saved: 文章已保存！
+      pinned: 文章已置顶！
+      unpinned: 文章已取消置顶！
+    badge_achievements_controller:
+      deleted: 徽章成就已被删除！
+      rewarded: 正在发放徽章。任务将很快完成。
+      congrats: 恭喜获得成就！🎉 感谢您成为 %{community} 的重要一员！
+      award: 请选择要颁发的徽章
+      wrong: 出现错误。
+    badges_controller:
+      created: 徽章已创建！
+      updated: 徽章已更新！
+    broadcasts_controller:
+      created: 广播已创建！
+      deleted: 广播已删除！
+      updated: 广播已更新！
+      wrong: 删除广播时出错。
+    pages_controller:
+      updated: 页面已成功更新。
+      created: 页面已成功创建。
+      deleted: 页面已成功删除。
+      code_of_conduct:
+        title: 行为准则
+        description: 描述如何在此平台上表现的页面
+      privacy_policy:
+        title: 隐私政策
+        description: 描述隐私政策的页面
+      terms_of_use:
+        title: 使用条款
+        description: 描述应用程序使用条款的页面
+    podcasts_controller:
+      new_owner_added: 已添加新所有者！
+      no_such_user: 没有此用户
+      scheduled: "播客的剧集获取已安排（%{title}, #%{id}）"
+      updated: 播客已更新 

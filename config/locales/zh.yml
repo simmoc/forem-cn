@@ -1,0 +1,182 @@
+---
+zh:
+  contact_prompts:
+    if_any_questions_html: 如有任何问题，请<a href="/contact">联系我们</a>。
+    if_continued_trouble_html: 如果继续遇到问题，请<a href="/contact">联系我们</a>。
+    if_we_can_help_html: 如果需要任何帮助，请<a href="/contact">联系我们</a>。
+  core:
+    add_comment: 添加评论
+    beta: 测试版
+    comment: 评论
+    copy_link: 复制链接
+    edit_profile: 编辑资料
+    follow: 关注
+    follow_back: 回关
+    following: 已关注
+    like: 点赞
+    loading: 加载中...
+    reaction: 反应
+    report_abuse: 举报滥用
+    search: 搜索
+    success_settings: 设置更新成功。
+    counted_organization:
+      one: "%{count} 个组织"
+      other: "%{count} 个组织"
+    counted_user:
+      one: "%{count} 个人"
+      other: "%{count} 个人"
+    not_following: "您还没有关注任何人"
+    following_everyone: "您正在关注 %{details}（所有人）"
+    you_are_following: "您正在关注"
+    and: "和"
+  datetime:
+    distance_in_words_ago:
+      about_x_hours:
+        one: 大约 1 小时前
+        other: 大约 %{count} 小时前
+      about_x_months:
+        one: 大约 1 个月前
+        other: 大约 %{count} 个月前
+      about_x_years:
+        one: 大约 1 年前
+        other: 大约 %{count} 年前
+      almost_x_years:
+        one: 接近 1 年前
+        other: 接近 %{count} 年前
+      half_a_minute: 半分钟前
+      less_than_x_minutes:
+        one: 不到 1 分钟前
+        other: 不到 %{count} 分钟前
+      less_than_x_seconds:
+        one: 不到 1 秒前
+        other: 不到 %{count} 秒前
+      over_x_years:
+        one: 超过 1 年前
+        other: 超过 %{count} 年前
+      x_days:
+        one: 1 天前
+        other: "%{count} 天前"
+      x_minutes:
+        one: 1 分钟前
+        other: "%{count} 分钟前"
+      x_months:
+        one: 1 个月前
+        other: "%{count} 个月前"
+      x_seconds:
+        one: 1 秒前
+        other: "%{count} 秒前"
+  errors:
+    messages:
+      already_confirmed: 已经确认
+      confirmation_period_expired: 需要在 %{period} 内确认，请重新申请
+      expired: 已过期，请重新申请
+      not_found: 未找到
+      not_locked: 未被锁定
+      not_saved:
+        one: "发生 1 个错误导致 %{resource} 保存失败："
+        other: "发生 %{count} 个错误导致 %{resource} 保存失败："
+      try_again_email: '发生错误。请重试或发送邮件至：%{email}'
+  time:
+    formats:
+      admin_user: "%Y-%m-%d, %H:%M"
+      comment: "%Y年%m月%d日"
+      email_verified: "%Y年%m月%d日 %H:%M"
+      github: "%Y年%m月%d日"
+      json: "%Y年%m月%d日"
+      medium: "%m月%d日, %Y年"
+      members: "%m月%d日"
+      members_with_year: "%Y年%m月%d日"
+      reddit: "%y年%m月%d日"
+      short: "%m月%d日"
+      short_with_year: "%Y年%m月%d日"
+      stackexchange: "%y年%m月%d日"
+  mailers:
+    digest_mailer:
+      from: 摘要
+      more_top_posts: 更多%{community}热门帖子
+      more_top_posts_based: 根据您的兴趣推荐的%{community}热门帖子
+      more_top_posts_from: 来自社区的更多热门阅读
+      more_trending_posts: 更多%{community}趋势帖子
+      more_trending_posts_picked: 为您精选的%{community}趋势帖子
+      other_posts: 您可能喜欢的其他帖子
+      other_community_posts: 您可能喜欢的其他%{community}帖子
+      other_top_posts: 其他%{community}热门帖子
+      other_trending_posts: 其他%{community}趋势帖子
+    custom_mailer:
+      from: 新闻通讯
+      moderator: "恭喜!您现在是 #%{tag_name} 的版主"
+      new_follower: 在%{community}上关注了您
+      new_mention: "%{name}在他们的%{type}中提到了您"
+      org_deleted: "%{community} - 组织删除确认"
+      new_reply: "%{name}回复了您的%{type}"
+      feedback: 感谢您对%{community}的反馈
+      export: 您的内容导出已就绪
+      unread_notifications:
+        one: "🔥 您在%{community}上有%{count}条未读通知"
+        other: "🔥 您在%{community}上有%{count}条未读通知"
+      new_badge: 您获得了一个新徽章
+      video_upload: 您的视频上传已完成
+    verification_mailer:
+      from: "%{community}邮箱验证 <%{email}>"
+      verify_ownership: 验证您的%{community}账户所有权
+
+  models:
+    api_secret:
+      api_limit_reached: 已达到每个用户10个API密钥的限制
+    article:
+      a_post_by: "%{user_name}的帖子"
+      video_unpermitted: 未经许可的成员不能添加
+      too_many_tags: 超过4个标签的最大限制
+      is_too_long: 太长了
+    listing:
+      too_many_tags: 超过8个标签的最大限制
+      too_many_linebreaks: 换行太多。不能超过12个。
+      image_not_allowed: 不允许包含图片
+      liquid_not_allowed: 不允许包含liquid标签
+    user:
+      password_not_matched: 与密码确认不匹配
+      has_been_banished: 已被封禁
+      user_could_not_be_saved: 用户无法保存。%{e_message}
+
+  services:
+    analytics_service:
+      no_stats: 您无法查看此文章的统计信息
+    authentication:
+      authenticator:
+        not_allowed: 抱歉,您的邮箱域名不被允许。此Forem可能限制只允许特定邮箱域名注册,或已屏蔽此特定域名加入。
+
+  views:
+    main:
+      header:
+        create_account: 创建账户
+        login: 登录
+      create_post: 创建帖子
+      signout: 退出登录
+
+    articles:
+      meta:
+        description: 来自社区的文章
+      actions:
+        aria_label: 文章操作
+      reading_time:
+        one: "阅读时间1分钟"
+        other: "阅读时间%{count}分钟"
+
+    editor:
+      meta:
+        title: 编辑帖子
+      heading:
+        new: 新帖子
+      create: 创建帖子
+      preview: 预览
+      new_title: 在此输入新帖子标题...
+
+    feedback:
+      meta:
+        title: 反馈
+      heading: 感谢您的反馈
+      form:
+        message:
+          subtitle: 消息
+          description: 请提供任何额外信息或上下文,以帮助我们理解和处理这种情况。
+        submit: 发送反馈
