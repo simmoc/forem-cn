@@ -1,0 +1,80 @@
+---
+zh:
+  views:
+    auth:
+      background: forem 背景
+      create:
+        aria_label: 创建新账号
+        text: 创建账号
+      creator:
+        text1: 让我们开始您的 Forem 之旅！
+        text2: 首先创建您的管理员账号。
+        text3: 然后我们将引导您完成 Forem 的设置。
+        hint:
+          aria_label: 编辑用户名
+          icon: 编辑用户名
+          text_html: "%{start}您的用户名将是\_%{end}%{button}"
+        submit: 创建我的账号
+      already_have_an_account: 已有账号？
+      sign_in: 登录
+      login:
+        aria_label: 登录
+        text: 登录
+        forgot: 忘记密码？
+      provider:
+        text: "使用 %{provider} %{action}"
+        login: 继续
+        signup: 注册
+        email:
+          icon: 邮箱
+          text: 使用邮箱注册
+      register:
+        errors:
+          one: 抱歉，我们发现了 %{count} 个问题
+          other: 抱歉，我们发现了 %{count} 个问题
+        allow:
+          one_html: 注册仅限于 <strong>@%{domain}</strong> 邮箱。
+          list: 注册仅限于以下邮箱
+        create: 创建您的账号
+        field:
+          name:
+            aria_label: 姓名
+            label: 姓名
+          username:
+            aria_label: 用户名
+            desc: 用户名只能包含字母、数字和下划线。最大长度为30个字符。
+            label: 用户名
+          email:
+            aria_label: 邮箱
+            label: 邮箱
+            placeholder: john@example.com
+          password:
+            aria_label: 密码
+            desc: 至少8个字符
+            label: 密码
+            placeholder: "••••••••"
+            hide: 隐藏密码
+            show: 显示密码
+          confirm:
+            aria_label: 确认密码
+            label: 确认密码
+          required: "* - 必填"
+        secret:
+          label: 新的 Forem 密钥
+          placeholder: 由您的 Forem 主机提供
+          hide: 隐藏新的 Forem 密钥
+          show: 显示新的 Forem 密钥
+        submit: 注册
+      wizard:
+        meta:
+          title: 让我们开始使用 Forem
+        heading: 让我们开始您的 Forem 之旅
+        step_1: 创建一个账号。这将是第一个超级管理员账号。
+        step_2_html: 注册完成后，您可以在 %{path} 配置您的社区。
+        step_3: 作为管理员您可以做很多事情，但需要一定的学习过程。
+        step_4: 如果您有任何不确定的地方，请联系 Forem 团队！
+        step_5: "为赋能社区而生 🌱"
+      tagline: 我们是一个让程序员分享、保持更新并发展事业的地方。
+      title:
+        text_html: "%{name} 是一个拥有 %{maybe_size}优秀的 %{label} 的社区"
+        size: "%{num} " 

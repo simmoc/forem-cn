@@ -1,0 +1,45 @@
+---
+zh:
+  views:
+    organizations:
+      dropdown: 组织操作
+      empty: 未找到简介
+      external:
+        icon: 外部链接图标
+      follow: 关注
+      github:
+        icon: GitHub 标志
+      joined:
+        icon: 加入时间
+        text_html: "加入于 %{date}"
+      location:
+        icon: 位置
+      logo: "%{org} 的资料图片"
+      size: 员工人数
+      sponsor:
+        text: "%{level} 社区赞助商 ❤️"
+        level:
+          gold: 黄金
+          silver: 白银
+          bronze: 青铜
+          tag: 标签
+          media: 媒体
+          devrel: 开发者关系
+      stack: 我们的技术栈
+      story: 我们的故事
+      side:
+        post:
+          icon: 文章
+          text:
+            one: 发布了 1 篇文章
+            other: "发布了 %{count} 篇文章"
+        member:
+          icon: 成员
+          text:
+            one: 1 名成员
+            other: "%{count} 名成员"
+      support: 支持邮箱
+      team: 认识团队
+      all_members: 查看所有成员
+      twitter:
+        icon: Twitter 标志 

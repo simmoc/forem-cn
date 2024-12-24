@@ -1,0 +1,98 @@
+---
+zh:
+  views:
+    moderations:
+      heading: 管理中心
+      actions:
+        meta:
+          title: 正在管理 %{title}
+          title2: '[管理] %{title}'
+        heading: 管理文章
+        subtitle: 评价此文章的质量
+        abusive:
+          subtitle_html: 将 %{user} 标记为滥用
+          desc_html: 这相当于标记该用户的<b>所有</b>文章，并会降低其文章评分。
+        adjust:
+          heading: 调整标签
+          subtitle: 添加或删除标签
+          aria_label: 打开调整标签部分
+          icon: 调整标签
+          add: 添加标签
+          add_placeholder: 添加标签
+          previous: 之前的标签调整
+          history:
+            added_by: 添加者
+            removed_by: 删除者
+          reason:
+            remove_tag: 删除标签的原因（可选）
+            add_tag: 添加标签的原因（可选）
+          remove: 删除标签
+          submit: 提交
+          cancel: 取消
+          maximum_tags:
+            icon: 信息
+            text: 一篇文章最多只能有四个标签。
+          add_tag:
+            header: 添加新标签
+            button_text: 添加新标签
+            icon: 添加标签
+          cannot_remove_admin_adjusted_tag_html: 该标签已被管理员添加。您现在无法删除。如果您认为这是个错误，请联系 <a href="mailto:%{contact_email}">%{contact_email}</a>。
+          cannot_add_admin_adjusted_tag_html: 该标签已被管理员删除。您现在无法添加。如果您认为这是个错误，请联系 <a href="mailto:%{contact_email}">%{contact_email}</a>。
+        approve:
+          add: 标记为已批准
+          remove: 取消批准
+        checkmark: 勾选标记
+        close: 关闭管理操作面板
+        delete:
+          subtitle: 删除此评论
+          button: 删除评论
+        edit:
+          post: 编辑文章
+        flag:
+          subtitle: 举报此文章
+          desc: 举报不当内容
+          reason: 原因
+          submit: 提交举报
+        hint:
+          subtitle: 所有负面反应都是私密的
+          desc: 这些反应不会公开显示，仅用于内部评估
+        low_quality:
+          subtitle: 标记为低质量
+          desc: 这将降低文章的可见度
+        moderate:
+          subtitle: 管理此文章
+          desc: 调整标签和可见度
+        negative_reactions:
+          subtitle: 负面反应
+          desc: 这些反应不会公开显示
+        other_reactions:
+          subtitle: 其他反应
+          desc: 这些反应会公开显示
+        quality_reactions:
+          subtitle: 质量反应
+          desc: 来自受信任用户的反应
+        rating:
+          subtitle: 评分
+          desc: 基于社区反馈的评分
+        remove:
+          subtitle: 删除此文章
+          desc: 从网站中删除此文章
+        spam:
+          subtitle: 标记为垃圾内容
+          desc: 这将降低文章的可见度并标记作者
+        unflag:
+          subtitle: 取消举报
+          desc: 移除此举报标记
+        unspam:
+          subtitle: 取消垃圾标记
+          desc: 恢复正常状态
+        no_negative_reactions: 文章没有负面反应。
+        no_other_reactions: 文章没有其他反应。
+        no_quality_reactions: 文章没有来自受信任用户的质量反应。
+        title: 管理员操作
+      members:
+        all: 全部
+        new: 新用户
+        established: 资深用户
+        filter: 按成员筛选
+        label: '成员' 

@@ -1,0 +1,53 @@
+---
+zh:
+  views:
+    tags:
+      meta:
+        title: 标签
+        description: "%{community} 上可关注的标签"
+        og:
+          description: "%{community} 很棒！"
+      heading:
+        default: 标签
+        search_results: 搜索 %{q} 的结果
+      search:
+        aria_labels:
+          search_input: 标签搜索词
+          submit: 搜索标签
+        placeholder: 搜索标签
+      follow: 关注标签
+      following_tags: 已关注的标签
+      following_tags_count:
+        one: "已关注 1 个标签"
+        other: "已关注 %{count} 个标签"
+      following_users: 关注此标签的用户
+      moderator:
+        add: 添加版主
+        remove: 移除版主
+        title: 标签版主
+      onboarding:
+        subtitle: 关注您感兴趣的标签以个性化您的信息流
+        desc: 我们建议至少关注 3 个标签
+        next: 继续
+        done: 完成
+        skip: 跳过
+        note: 您可以随时在设置中更改这些选项
+      rules:
+        heading: 提交指南
+        save: 保存指南
+        placeholder: "逗号分隔，空格可选。示例：1,2,3"
+      published:
+        one: 1 篇文章
+        other: "%{count} 篇文章"
+      sidebar:
+        about: '关于 #%{tag}'
+        admin: 管理员
+        edit: 编辑
+        guidelines: 提交指南
+        moderate: 管理
+        mods: 标签版主
+        new: 创建文章
+        older: '更早的 #%{tag} 文章'
+        published:
+          one: 已发布 1 篇文章
+          other: "已发布 %{count} 篇文章" 

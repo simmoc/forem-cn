@@ -1,0 +1,24 @@
+---
+zh:
+  validators:
+    bytesize_validator:
+      non_negative: ":maximum 必须是非负整数"
+    color_contrast_validator:
+      must_be_darker: 必须更深以确保可访问性
+    emoji_only_validator:
+      invalid_emoji: 包含非表情符号字符或无效的表情符号
+    existing_published_article_id_validator:
+      default: 必须是有效的已发布文章标识符
+    profile_validator:
+      bio_too_long: 个人简介太长
+    cross_model_slug_validator:
+      is_taken: 已被占用
+      is_invalid: 无效
+      is_reserved: 已被保留
+      too_many_subdirectories: 子目录太多
+    valid_domain_csv_validator:
+      invalid_list_format: 必须是以逗号分隔的有效域名列表
+    iso3166_hash_validator:
+      is_blank: 必须提供
+      invalid_key: 包含无效的 ISO 3166 代码
+      invalid_value: 必须具有值 `:with_regions` 或 `:without_regions` 

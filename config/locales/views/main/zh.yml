@@ -1,0 +1,63 @@
+---
+zh:
+  views:
+    main:
+      aria_home: "%{community} 首页"
+      header:
+        create_account: 创建账号
+        login: 登录
+        nav:
+          aria_label: 导航菜单
+        moderation:
+          aria_label: 管理
+          icon: 管理
+        notifications:
+          aria_label: 通知
+          icon: 通知
+        skip: 跳转到内容
+        search:
+          aria_label: 搜索
+          icon: 搜索
+          placeholder: 搜索...
+          submit: 搜索
+        write: 写文章
+        more:
+          aria_label: 更多...
+          icon: 更多
+        menu:
+          admin: 管理
+          code_of_conduct: 行为准则
+          contact: 联系
+          faq: 常见问题
+          privacy: 隐私政策
+          settings: 设置
+          sponsors: 赞助商
+          terms: 服务条款
+          about: 关于
+          aria_label: 网站导航菜单
+          icon: 菜单
+      sidebar:
+        nav:
+          aria_label: 侧边栏导航
+        reading:
+          aria_label: 阅读列表
+          icon: 阅读列表
+        tags:
+          aria_label: 标签
+          icon: 标签
+        my_tags: 我的标签
+        popular_tags: 热门标签
+      footer:
+        built:
+          text_html: 基于 %{forem} 构建 — 为 %{dev} 和其他包容性社区提供支持的%{opensource}软件。
+          forem: Forem
+          opensource: 开源
+          dev: DEV
+        desc_html: "%{community} — %{desc}"
+        logo: Forem 标志
+        powered:
+          text_html: 用爱和 %{rails} 打造。%{community} <span title="copyright">&copy;</span> %{copyright}。
+          rails: Ruby on Rails
+        sidebar_desc_html: "%{community}\n%{desc}"
+      create_post: 创建文章
+      signout: 退出登录 

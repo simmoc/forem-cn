@@ -1,0 +1,128 @@
+---
+zh:
+  views:
+    badges:
+      meta:
+        title: 徽章
+      all:
+        one: 显示一个徽章
+        other: 显示所有 %{count} 个徽章
+      heading: 徽章
+      desc: 因为表现出色而获得徽章！点击徽章查看如何获得。
+      icon_close: 关闭
+      gotit: 明白了
+      indicator: "%{user} 获得此徽章 %{number} 次。"
+    campaign:
+      subtitle: 故事 (%{count})
+      view: 查看所有文章
+    deep_links:
+      subtitle: 正在打开移动应用...
+      alert:
+        subtitle: 糟糕！打开移动应用时遇到问题？
+        desc_html: 请确保已安装应用并重试。如果问题持续存在，请联系 %{email}
+        back: 返回
+        again: 重试
+        install: 安装应用
+    email_subscriptions:
+      unsubscribe:
+        heading: "您已取消订阅 %{type}。😔"
+        description_html: 您将不再收到此类邮件。如果您想重新订阅或管理完整的邮件偏好设置，请%{link}。
+        link: 点击这里
+      invalid:
+        heading: 令牌已过期或无效
+        description_html: 请%{signin}以管理您的邮件偏好设置。
+        signin: 登录
+    hamburger:
+      icon: 导航菜单
+      icon_close: 关闭
+      icon_left: 左侧菜单
+      icon_right: 右侧菜单
+    logo:
+      color_1:
+        label: 品牌颜色 1
+        description: 用于背景、边框等
+      color_2:
+        label: 品牌颜色 2
+        description_html: 用于文本（通常放在<em>品牌颜色 1</em>上）。
+      preview:
+        icon: 应用图标
+        text: '预览：'
+    mailers:
+      contact_mailto_html: 如果您需要更多帮助，请通过 <a href="mailto:%{contact_email}">%{contact_email}</a> 联系我们。
+    onboardings:
+      meta:
+        title: 欢迎加入 %{community}
+      heading: 您现在是社区的一员了！
+      subtitle: 建议您可以做的事情
+      close: 关闭欢迎消息
+      settings_html: "<span class=\"emoji\">💅🏼</span>自定义您的个人资料"
+      welcome_html: "<span class=\"emoji\">😊</span>加入欢迎主题"
+      write_html: "<span class=\"emoji\">✍🏾</span>写下您在 %{community} 的第一篇文章"
+      join_subscription_html: "<span class=\"emoji\">🚀</span>加入 DEV++"
+    pins:
+      article: 已置顶
+    search:
+      icon:
+        aria_label: 搜索
+        title: 搜索
+      nav:
+        posts: 文章
+        podcasts: 播客
+        people: 用户
+        comments: 评论
+        my_posts: 仅我的文章
+        organizations: 组织
+        tags: 标签
+      sort:
+        aria_label: 搜索结果排序选项
+        relevance: 最相关
+        newest: 最新
+        oldest: 最早
+      meta:
+        title: 搜索结果%{for}
+        for: " - %{query}"
+        description: "%{site} => 搜索结果"
+    series:
+      meta:
+        description: 在 %{site} 上查看 %{title}
+      heading: "%{user} 的系列"
+      empty: 该用户没有任何系列
+      list:
+        heading: "%{series} 系列的文章"
+        back: 返回到 %{user} 的系列
+        empty: 该系列没有任何文章
+    stats:
+      meta:
+        title: 您文章的统计数据
+      heading_html: ""%{article}" 的统计数据"
+      period:
+        aria_label: 分析周期
+        week: 周
+        month: 月
+        infinity: 全部时间
+      readers: 读者概要
+      followers: 新关注者概要
+      reactions: "反应概要"
+      comments: "评论概要"
+      traffic:
+        text: "流量来源概要"
+        source: 来源
+        views: 浏览量
+      reactions_history: "反应历史"
+    sticky:
+      joined: 已加入
+      default_cta: 了解更多
+      email: 电子邮件
+      hot: 热门
+      location: 位置
+      more_from_html: 更多来自 %{actor} 的内容
+      no_summary: 此标签中的文章
+      trending_html: 在 %{app} 上流行
+    videos:
+      meta:
+        title: 视频
+        og:
+          description: %{community} 上的所有视频
+      heading: "%{community} 视频"
+      beta_html: "<strong>视频功能处于测试阶段：</strong> %{contact}"
+      upload: "🎥 上传视频文件 🙌" 

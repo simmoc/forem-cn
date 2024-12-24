@@ -1,0 +1,112 @@
+---
+zh:
+  services:
+    analytics_service:
+      no_stats: 您无法查看此文章的统计数据
+    article_with_video_creation_service:
+      unpublished_video: 未发布的视频 ~ %{rand}
+    authentication:
+      authenticator:
+        not_allowed: 抱歉，您的电子邮件地址域名不被允许。此 Forem 可能已将注册限制为仅特定的电子邮件域名，或已阻止此特定域名加入。
+      providers:
+        apple:
+          name: "%{first} %{last}"
+        not_available: 提供商 %{name} 不可用！
+        not_enabled: 提供商 %{name} 未启用！
+    badges:
+      award_beloved_comment:
+        message: "您出名了！[这是](%{comment})让您获得认可的评论。😄"
+      award_streak:
+        longest: 16 周！您已达到可能的最长写作连续记录。继续为我们的社区做出惊人的贡献！
+        message:
+          one: "恭喜达成这个连续记录！持续写作很难。您可以获得的下一个连续徽章是 %{count} 周徽章。😉"
+          other: "恭喜达成这个连续记录！持续写作很难。您可以获得的下一个连续徽章是 %{count} 周徽章。😉"
+      award_yearly_club:
+        message:
+          one: "%{community} 生日快乐！能相信已经 %{count} 年了吗？！"
+          other: "%{community} 生日快乐！能相信已经 %{count} 年了吗？！"
+      congrats: 恭喜您的成就！🎉 感谢您成为 %{community} 如此重要的一部分！
+      thank_you: 非常感谢您的贡献！
+      community_wellness:
+        first: 感谢您参与建设性的对话！您本周发表了两条或更多评论。继续保持以延续连续记录！
+        longest: 32 周！您已达到社区健康徽章可能的最长连续记录。在社区参与方面做得很棒。继续为我们的社区做出惊人的贡献！
+        other: 恭喜达成社区健康徽章 %{weeks} 周连续记录！继续发表建设性评论以保持连续记录！
+      thumbs_up: 感谢您审查帖子的努力，获得了 %{count} 个点赞反应！
+    broadcasts:
+      welcome_notification:
+        generator:
+          welcome: '欢迎通知：%{key}'
+    error_messages:
+      clean:
+        parse_error: 解析前置事项 YAML 时出现问题。也许您需要转义引号或冒号等。如果遇到问题，请发送邮件至 %{email}。
+    html:
+      parser:
+        enter_fullscreen_mode: 进入全屏模式
+        exit_fullscreen_mode: 退出全屏模式
+    markdown_processor:
+      parser:
+        invalid_markdown_detected: 检测到无效的 markdown！
+    moderator:
+      banish_user:
+        spam_account: 垃圾账号
+      manage_activity_and_roles:
+        need_super: 您需要超级管理员权限才能执行此操作
+      merge_user:
+        duplicate: 用户在两个账号上有重复的身份验证方法。请仔细检查并删除用户不再使用的身份。这通常是已删除的社交账号，或与要删除的用户关联的身份验证方法。
+        multiple: 要删除的用户已有两个或更多身份验证方法。您确定这是要删除的正确用户吗？如果是，超级管理员需要从控制台执行此操作以确保安全。
+        same_user: 不能合并相同的两个用户 ID
+    notifications:
+      new_comment:
+        new: "💬 新评论"
+      new_mention:
+        new: "🗣️ 新提及"
+    payments:
+      customer:
+        usd: usd
+      errors:
+        select_payment_method: "请选择支付方式"
+      process_credit_purchase:
+        charge:
+          one: 购买 %{count} 个积分。
+          other: 购买 %{count} 个积分。
+    rate_limit_checker:
+      invalid_key: '无效的缓存键：没有唯一组件'
+      limit_reached:
+        one: 已达到速率限制，请在 %{count} 秒后重试
+        other: 已达到速率限制，请在 %{count} 秒后重试
+    slack:
+      messengers:
+        article_fetched_feed:
+          body: |
+            通过 RSS 获取的新文章：%{title}
+            %{url}
+        article_published:
+          body: |
+            新文章已发布：%{title}
+            %{url}
+        feedback:
+          anonymous_report: "*匿名举报："
+          final_message: |-
+            %{user_detail}
+            分类：%{category}
+            内部报告：%{reports_url}
+            *_ 被举报的 URL：%{reported_url} _*
+            -----
+            *消息：* %{message}
+          body: |
+            *已登录用户：*
+            举报者：%{username} - %{url}
+            邮箱：<mailto:%{email}|%{email}>
+        potential_spammer:
+          body: '潜在垃圾用户！%{url}'
+    spam:
+      article_handler:
+        suspended_too_many: 用户因发布过多垃圾文章而被自动暂停，由 autovomit 触发。
+    user_subscriptions:
+      create_from_controller_params:
+        source_not_found: 未找到来源。
+        email_mismatch: 订阅者邮箱不匹配。
+    users:
+      remove_role:
+        remove_self: 管理员不能删除自己的角色。
+        error: 删除此角色时出现问题。%{e_message} 

@@ -1,0 +1,90 @@
+---
+zh:
+  views:
+    notifications:
+      meta:
+        description: "%{community} 的通知收件箱"
+        og:
+          title: "通知 - %{community}"
+      heading: 通知
+      article:
+        published_html: "%{user} 发布了 %{title}"
+        mod_greeting: "嗨 %{user} 👋"
+        welcome_html: "%{user} 是社区的新成员。请查看他们的文章并留下友好的回复，让他们感受到欢迎！"
+        mod_opt_out: "不想收到这些通知？"
+        change_settings: 更改设置
+      badge:
+        heading_html: "您获得了 %{badge} 徽章"
+        awarded_html: "您还获得了 %{credits} 用于 %{listings}，如果您有任何想要推广的内容。🎉"
+        credits:
+          one: "%{count} 个新积分"
+          other: "%{count} 个新积分"
+        listings: 社区列表
+        more: 关于列表的更多信息
+        profile: 访问您的个人资料
+      broadcast:
+        visit_html: "访问%{settings}管理您的通知。"
+        settings: 设置
+      comment:
+        commented_html: "%{user} 评论了 %{title}"
+        first_html: "%{user} 在 %{title} 发表了他们的第一条评论"
+        first_reply: "给他们第一个回复！🎉"
+        left_html: "%{user} 刚刚在 %{title} 发表了评论。"
+        replied_html: "%{user} 回复了 %{title} 中的讨论"
+        mod_greeting: "嗨 %{user} 👋"
+        welcome_html: "%{user} 是社区的新成员。请留下友好的回复，让他们感受到欢迎。"
+        mod_opt_out: "不想收到这些通知？"
+        change_settings: 更改设置
+      error:
+        subtitle: 发生错误！
+        desc: 此错误已被记录，我们正在跟踪处理。
+      follow:
+        and_html: "%{first} 和 %{second} 关注了您！"
+        and_other_html:
+          one: "%{first} 和另外 %{others} 人关注了您！"
+          other: "%{first} 和其他 %{others} 人关注了您！"
+      mention:
+        article_html: "%{user} 在文章中提到了您"
+        comment_html: "%{user} 在评论中提到了您"
+        article_mobile: "%{user} 在文章 %{title} 中提到了您"
+        comment_mobile: "%{user} 在 %{title} 的评论中提到了您"
+        if_org_html: " 在 %{org} 下"
+      milestone:
+        heading_html: "您的文章 %{title} 达到了 %{type}！"
+        check: 查看您的仪表板
+        intro: "🎉🎉🎉🎉🎉🎉🎉🎉"
+        type:
+          View:
+            one: "%{count} 次浏览"
+            other: "%{count} 次浏览"
+          Reaction:
+            one: "%{count} 个反应"
+            other: "%{count} 个反应"
+      nav:
+        aria_label: 通知
+        all: 全部
+        comments: 评论
+        posts: 文章
+      new_post:
+        if_org_html: " 在 %{org} 下"
+        verb_html: "%{user} 发布了新文章%{if_org}"
+      reacted:
+        and_html: "%{first} 和 %{last}"
+        and_other_html:
+          one: "%{first} 和另外 %{count} 人"
+          other: "%{first} 和其他 %{count} 人"
+        verb_html:
+          one: "%{start}%{actors} 对 %{title} 做出了%{end} %{reactions} 反应"
+          other: "%{start}%{actors} 对 %{title} 做出了%{end} %{reactions} 反应"
+        your:
+          article: 您的文章
+          comment: 您的评论
+      settings: 设置
+      tag:
+        heading: "嗨 👋"
+        add_html: "管理员为您的文章 %{title} 添加了 <strong>%{tag}</strong> 标签。管理员认为这个标签能代表您的文章。"
+        check_html: "查看%{other}，可能更合适"
+        other: 其他热门标签
+        reason: '操作原因：'
+        remove_html: "管理员从您的文章 %{title} 中删除了 <strong>%{tag}</strong> 标签。某些标签有特殊的提交指南，管理员需要调整标签以更好地适应社区。"
+        support_html: "感谢您成为 %{community} 的一员！%{email} 🤗" 

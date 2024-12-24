@@ -1,0 +1,37 @@
+---
+zh:
+  views:
+    podcasts:
+      meta:
+        title: 播客
+        description: 为 %{member} 发现技术播客
+        og:
+          title: "%{community} 上的播客"
+      browse: 浏览
+      heading: 播客
+      close: "×"
+      form:
+        heading: 推荐播客
+        errors:
+          one: '创建播客时出现 1 个错误：'
+          other: "创建播客时出现 %{count} 个错误："
+        owner: 我是这个播客的所有者
+        return: "< 返回播客列表"
+        suggest: 推荐
+      list: 播客
+      listen: 点击此处下载/收听
+      source: 节目来源
+      statuses:
+        ssl_failed: 获取播客的 feed_url 时 SSL 证书验证失败
+        unparsable: 无法解析播客的 RSS
+        unplayable: 此播客可能无法在浏览器中播放
+        unreachable: 无法访问播客的 feed_url
+      speed: 1x
+      tag: 播客
+      initializing: 正在初始化...
+      unsupported: 您的浏览器不支持音频元素。
+      featured_shows: 精选节目
+      latest_episodes: 最新节目
+      suggest_a_podcast: 推荐播客
+      view_all_podcasts: 查看所有播客
+      follow: 关注 

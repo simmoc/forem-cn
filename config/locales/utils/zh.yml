@@ -1,0 +1,14 @@
+---
+zh:
+  xml:
+    opensearch:
+      short_name: "%{community} 搜索"
+      description: 在 %{community} 中查找文章。
+    user:
+      image: "%{user} 的个人头像"
+  json:
+    author: 活跃的 %{community} 作者
+  mailer:
+    adjust: 调整您的邮件设置
+    adjust_only_html: 不想收到这样的邮件？在 %{path} 调整您的邮件设置
+    unsubscribe: 取消订阅 

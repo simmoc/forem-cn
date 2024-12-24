@@ -1,0 +1,28 @@
+---
+zh:
+  views:
+    stories:
+      meta:
+        description_tagged: "%{name} 上的 %{tag} 内容"
+        page: " 第 %{page} 页"
+        rss: "%{name} RSS 订阅"
+      status_placeholder: "您在想什么？"
+      submit: "发布"
+      status_hint_html: "<strong>快速发布（测试版）</strong>会显示在信息流中，但不会出现在通知或您的个人资料中 — <a href='/new'>打开完整编辑器</a>"
+      heading: 文章
+      discuss: "#讨论"
+      follow: 关注
+      menu:
+        aria_left: 左导航按钮
+        aria_right: 右导航按钮
+      sort:
+        aria_label: 按以下方式查看文章
+        aria_tagged: 按以下方式查看标签文章
+        relevant: 相关
+        week: 本周
+        month: 本月
+        year: 今年
+        infinity: 所有时间
+        latest: 最新
+        signin_html: "👋 <a href=\"%{path}\">登录</a>后即可按<strong>相关度</strong>、<strong>最新</strong>或<strong>最热</strong>排序文章。"
+        top: 最热 

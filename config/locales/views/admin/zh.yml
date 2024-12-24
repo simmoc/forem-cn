@@ -1,0 +1,19 @@
+---
+zh:
+  views:
+    admin:
+      articles:
+        flags:
+          score: 特定标记影响的分数
+        priviliged_actions:
+          description: 所有管理员操作都会影响分数。总分是管理员操作和公众反应的综合。
+        options:
+          delete: 删除组织
+          icon: 选项
+      organizations:
+        delete:
+          onsubmit: 您确定吗？此操作无法撤销。
+          desc2: "注意：删除组织 %{organization} 将解除现有成员和文章与该组织的关联，但不会删除它们。"
+          role_notice: 只有超级管理员才能删除组织。
+          credits_notice: 您不能删除拥有相关积分的组织。
+          submit: 立即删除组织 

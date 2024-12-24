@@ -1,0 +1,65 @@
+---
+zh:
+  views:
+    dashboard:
+      meta:
+        title: 仪表板 - %{site}
+      heading: 仪表板
+      actions:
+        mobile:
+          posts: 文章 (%{num})
+          followers: 关注者 (%{num})
+          following_tags: 关注的标签 (%{num})
+          following_users: 关注的用户 (%{num})
+          following_orgs: 关注的组织 (%{num})
+          following_pods: 关注的播客 (%{num})
+          hidden_tags: 隐藏的标签 (%{num})
+        posts: 文章
+        series: 系列
+        followers: 关注者
+        following_tags: 关注的标签
+        following_users: 关注的用户
+        following_orgs: 关注的组织
+        following_pods: 关注的播客
+        hidden_tags: 隐藏的标签
+        listings: 列表
+        analytics: 统计分析
+        for_org: "%{org} 的统计分析"
+        upload: 上传视频
+      analytics:
+        meta:
+          title: 统计分析
+        heading: "%{name} 的统计分析"
+        back: "返回主仪表板"
+      posts:
+        heading: 文章
+        archived: 显示已归档
+        statuses: 显示快速发布
+        full: 显示完整文章
+        option:
+          creation-desc: 最近创建
+          published-desc: 最近发布
+          views-desc: 最多浏览
+          reactions-desc: 最多反应
+          comments-desc: 最多评论
+          aria_label: 排序方式
+        org: "%{name} (%{num})"
+        personal: 个人
+        empty:
+          desc: 这里是管理您的文章的地方，但您还没有写任何内容。
+          new: 现在写下您的第一篇文章
+      subscriptions:
+        meta:
+          title: 订阅 %{title}
+        heading: 订阅
+        subhead:
+          text_html: "%{for} %{source}"
+          for: 为
+        empty: 您的 %{kind} 还没有任何订阅者...
+      summary:
+        reactions: 文章总反应数
+        views: 文章总浏览量
+        comments: 文章总评论数
+        listings: 已创建的列表
+        credits: 可用积分
+        lt_500: "< 500" 

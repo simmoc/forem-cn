@@ -1,0 +1,26 @@
+---
+zh:
+  views:
+    actions:
+      copy:
+        text: 已复制到剪贴板
+        button: 复制链接
+      more:
+        title: 更多...
+        aria_label: 分享文章选项
+      share:
+        facebook:
+          text: 分享到 Facebook
+        hackernews:
+          text: 分享到 Hacker News
+        linkedin:
+          text: 分享到 LinkedIn
+        mastodon:
+          text: 分享到 Mastodon
+        reddit:
+          text: 分享到 Reddit
+        twitter:
+          text: 分享到 X
+          query: '"%{article}" 作者 %{author}'
+        link: 分享文章到...
+        report: 举报滥用 

@@ -1,0 +1,20 @@
+---
+zh:
+  views:
+    feedback:
+      meta:
+        title: 反馈
+      heading: 感谢您的举报。
+      home: 返回首页
+      form:
+        rude_or_vulgar: 粗鲁或低俗
+        harassment: 骚扰或仇恨言论
+        spam: 垃圾信息或版权问题
+        listings: 不当的列表信息/类别
+        other: 其他
+        url: 举报的 URL
+        message:
+          subtitle: 信息
+          description: 请提供任何额外的信息或背景，以帮助我们理解和处理这种情况。
+          placeholder: "..."
+        submit: 发送反馈 

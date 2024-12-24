@@ -1,0 +1,25 @@
+---
+zh:
+  views:
+    manager:
+      meta:
+        title: 管理 %{title}
+      error:
+        pins: "糟糕！%{error} 😬"
+      tools:
+        heading: '工具：'
+        subtitle: '文章经验等级：'
+        text_html: "您的文章是针对初学者还是高级读者？调整此等级作为一个<em>温和的</em>指标，这将有助于将文章展示给最能从中受益的人。"
+      nav:
+        dashboard: 仪表板
+        text: "👉 管理您的文章"
+      rating:
+        heading: 文章经验等级
+        text: 这篇文章最适合哪类读者？
+        lower: "👈 初学者"
+        higher: "专家 👉"
+      tips:
+        heading: '提示：'
+        text_1: 写一条关于这篇文章的推文，描述您写作的个人原因或人们可能觉得它有用的原因。我们可能会转发您。
+        text_2_html: '在如 <a href="https://www.reddit.com">Reddit</a> 等链接聚合网站上分享。尽量选择最具体的主题子版块，如 <a href="https://www.reddit.com/r/javascript">/r/javascript</a> 或 <a href="https://www.reddit.com/r/python">/r/python</a> 等。<em>警告：可能会遇到无礼和捣乱的人。</em>'
+        text_3: 与您的同事或本地社区分享。邀请人们在评论中向您提问。这是激发额外讨论的好方法。 

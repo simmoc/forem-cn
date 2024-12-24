@@ -1,0 +1,35 @@
+---
+zh:
+  views:
+    users:
+      meta:
+        og:
+          title: "%{user} — %{community} 个人资料"
+      comments_locked_cta:
+        title: "想要与 %{user} 联系吗？"
+        description: "创建账号以与 %{user} 联系。如果您已有账号，也可以在下方登录。"
+        create_account: 创建账号
+        already_have_an_account: 已有账号？
+        sign_in: 登录
+      flag:
+        heading: 举报 @%{user}
+        desc: 举报此用户的不当行为
+        reason: 原因
+        submit: 提交举报
+      follow: 关注 @%{user}
+      following: 正在关注
+      joined:
+        text_html: "加入于 %{date}"
+      location_icon: 位置图标
+      logo: "%{user} 的头像"
+      more: 关于 @%{user} 的更多信息
+      send_pm:
+        code: 行为准则
+        notice_html: 所有私人互动<b>必须</b>遵守%{code}。
+        placeholder: 在此输入您的消息...
+        submit: 发送
+      spam: 将 @%{user} 标记为垃圾用户
+      social: "%{service} 网站"
+      unflag: 取消举报 @%{user}
+      unspam: 将 @%{user} 设为正常状态
+      website: 个人网站 

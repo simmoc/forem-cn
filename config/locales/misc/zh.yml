@@ -1,0 +1,41 @@
+---
+zh:
+  create_mascot:
+    name: 吉祥物
+    error: 吉祥物已设置
+  broadcast:
+    welcome:
+      ask_question: "我是 Sloan！👋 我注意到您还没有<a href='https://dev.to/t/explainlikeimfive'>提出问题</a>。提问很简单，只需点击标签页侧栏中的"创建文章"即可开始！"
+      customize_experience: "我是 Sloan！👋 您知道可以自定义您的 DEV 体验吗？试试更改<a href='settings/customization'>字体和主题</a>，找到最适合您的风格！"
+      customize_feed: "嗨，又是我！👋 既然您已经是 DEV 社区的一员了，让我们来个性化您的内容吧。您可以先<a href='/tags'>关注一些标签</a>来帮助定制您的信息流！🎉"
+      discuss_and_ask: "我是 Sloan！👋 我注意到您还没有<a href='https://dev.to/t/explainlikeimfive'>提出问题</a>或<a href='https://dev.to/t/discuss'>发起讨论</a>。这两个都很容易做到，只需点击标签页侧栏中的"创建文章"即可开始！"
+      download_app: "我是 Sloan，这是最后一个提示！👋 您下载 DEV 移动应用了吗？考虑<a href='https://dev.to/downloads'>下载</a>它，这样您就可以随时随地访问所有喜欢的 DEV 内容！"
+      set_up_profile: "欢迎来到 DEV！👋 我是 Sloan，社区吉祥物，我在这里帮助您入门。让我们从<a href='/settings'>设置您的个人资料</a>开始吧！"
+      start_discussion: "我是 Sloan！👋 我注意到您还没有<a href='https://dev.to/t/discuss'>发起讨论</a>。发起讨论很简单，只需点击标签页侧栏中的"创建文章"即可开始！"
+      welcome_thread: "又是我，Sloan！👋 DEV 是一个友好的社区。何不在<a href='/welcome'>欢迎主题</a>中留言介绍一下自己呢！"
+    connect:
+      apple: "您做得很好！🎉 您有 Apple 账号吗？考虑<a href='/settings'>关联它</a>。"
+      facebook: "您做得很好！🎉 您有 Facebook 账号吗？考虑<a href='/settings'>关联它</a>。"
+      forem: "您做得很好！🎉 您有 Forem 账号吗？考虑<a href='/settings'>关联它</a>。"
+      github: "您做得很好！🎉 您有 GitHub 账号吗？考虑<a href='/settings'>关联它</a>，这样您就可以将任何仓库固定到个人资料。"
+      google: "您做得很好！🎉 您有 Google 账号吗？考虑<a href='/settings'>关联它</a>。"
+      twitter: "您做得很好！🎉 您有 Twitter 账号吗？考虑<a href='/settings'>关联它</a>，这样如果我们通过我们的 Twitter 账号 <a href='https://twitter.com/thePracticalDev'>@thePracticalDev</a> 分享您的文章，我们就可以@提到您。"
+  errors:
+    authentication:
+      errors:
+        suspended: 看起来您之前的 %{community_name} 账号已被暂停。因此，我们采取了措施防止您在 %{community_name} 及其社区创建新账号。如果您认为这是个错误，请发送邮件至 %{community_email}，我们会重新审查。
+    fastly_config:
+      must_be_array: 'configs: 必须是字符串数组'
+      invalid_config: 无效的 Fastly 配置 - %{invalid_config}。只有 %{valid_configs_join} 是有效的。
+  policies:
+    application_policy:
+      must_be_logged_in: 必须登录
+      you_must_be_logged_in: 您必须登录
+      your_account_is_suspended: 您的账号已被暂停
+    liquid_tag_policy:
+      no_user_found: 未找到用户
+      not_permitted: 用户不被允许使用此 liquid 标签
+  uploaders:
+    base_uploader:
+      too_many_frames: GIF 包含太多帧。允许的最大帧数是 %{frame_max}。
+      timeout: 图片处理超时。 

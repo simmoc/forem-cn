@@ -1,0 +1,42 @@
+---
+zh:
+  views:
+    reactions:
+      category:
+        hands: 鼓掌
+        like: 喜欢
+        readinglist: 阅读列表
+        thinking: 思考
+        thumbsup: 点赞
+        thumbsdown: 踩
+        unicorn: 独角兽
+        vomit: 举报
+        lightbulb: 灯泡
+        raised_hands: 举手
+        rocket: 火箭
+        exploding_head: 爆炸头
+        fire: 火焰
+      drawer_button: 添加反应
+      summary:
+        count_html:
+          one: "%{count}%{start} 个反应%{end}"
+          other: "%{count}%{start} 个反应%{end}"
+        title: 反应
+      like:
+        title: 喜欢
+        aria_label: 喜欢
+        icon: 喜欢心形按钮
+        text: 喜欢
+      unicorn:
+        title: 独角兽
+        aria_label: 用独角兽表态
+      readingList:
+        title: 保存
+        aria_label: 添加到阅读列表
+        icon: 保存按钮
+        text: 保存
+      subscribe:
+        title: 订阅评论
+        aria_label: 订阅评论
+        icon: 保存按钮
+        text: 订阅评论 

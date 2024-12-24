@@ -1,0 +1,146 @@
+---
+zh:
+  models:
+    api_secret:
+      api_limit_reached: 已达到每个用户 10 个 API 密钥的限制
+    application_record:
+      uninferrable: 无法为 %{class} 推断装饰器。
+    article:
+      a_post_by: "%{user_name} 的文章"
+      video_unpermitted: 未经授权的成员不能添加
+      video_processing: 视频仍在处理时不能设置为 true
+      cannot_search_tags_for: '无法搜索标签：%{tag}'
+      cannot_search_tags_for_tags: '无法搜索标签：%{tags}'
+      unique_coauthor: 合作作者 ID 必须唯一
+      too_many_tags: 超过最多 4 个标签的限制
+      is_too_long: 太长了。
+      invalid_date: 必须以 DD/MM/YYYY 格式输入当前或过去的日期
+      series_unpermitted: 必须是您有权发布的系列
+      invalid_coauthor: 必须是有效的用户 ID
+      same_author: 不能与作者是同一用户
+      must_not_have_spaces: 不能包含空格
+      published: 已发布
+      unique_url: 已被占用。详情请发送邮件至 %{email}。
+      future_or_current_published_at: 发布文章时只允许未来或当前的发布时间
+      immutable_published_at: 不允许更新已发布文章的发布时间
+      mention_too_many:
+        one: 您在文章中最多只能提到 %{count} 个用户！
+        other: 您在文章中最多只能提到 %{count} 个用户！
+    audience_segment:
+      type_ofs:
+        manual: 在其他地方管理
+        trusted: 受信任的
+        posted: 至少发布过一篇文章
+        no_posts_yet: 尚未发布文章
+        dark_theme: 已启用深色主题
+        light_theme: 已启用浅色主题
+        no_experience: 尚未设置经验等级
+        experience1: 经验等级一
+        experience2: 经验等级二
+        experience3: 经验等级三
+        experience4: 经验等级四
+        experience5: 经验等级五
+    billboard:
+      invalid_location: '%{location} 不是启用的目标 ISO 3166-2 代码'
+    broadcast:
+      single_active: 您只能有一个活动的公告广播
+    comment:
+      deleted: '[已删除]'
+      has_been_deleted: '%{type} 已被删除。'
+      hidden: '[已被文章作者隐藏]'
+      image_only: '[图片]'
+      is_not_valid: 无效。
+      locked: 此文章的讨论已锁定
+      published_article: 不是已发布的文章
+      type:
+        Article: 文章
+        item: 项目
+        PodcastEpisode: 播客单集
+      suspended_too_many: 用户因过多垃圾互动被自动暂停。
+      mention_too_many:
+        one: 您在评论中最多只能提到 %{count} 个用户！
+        other: 您在评论中最多只能提到 %{count} 个用户！
+    discussion_lock:
+      reason_required: 锁定讨论时需要提供原因
+    feedback_message:
+      is_missing: 缺少反馈消息
+      is_too_long: 反馈消息太长
+    follow:
+      self: 不能关注自己
+      rate_limit: 请等待几分钟后再关注更多用户
+    html_variant:
+      duplicate_group_name: 在此组中已存在相同名称的变体
+      published_duplicate: 已发布的组中不允许重复
+    identity:
+      email:
+        duplicate: 此电子邮件已被其他账号使用
+        taken: 此电子邮件已被使用
+    listing:
+      invalid_category: 无效的分类
+      unpermitted: 您没有创建此类型列表的权限
+      missing_payment: 此类型的列表需要付款
+      invalid_action: 无效的操作
+      tag:
+        max_error: 标签数量超过限制
+        not_found: 未找到标签
+    mention:
+      invalid: 提及的用户无效或不存在
+    navigation_link:
+      icon:
+        must_be_downloaded: 必须先下载图标
+        not_found: 未找到图标
+    notification:
+      no_notifiable: 通知对象不存在
+    organization:
+      taken: 此组织名称已被使用
+      not_found: 未找到组织
+    page:
+      template:
+        invalid: 无效的模板
+        unpermitted: 无权使用此模板
+    podcast:
+      duplicate: 已存在相同的播客源
+      not_found: 未找到播客
+    profile:
+      website:
+        invalid: 无效的网站 URL
+      location:
+        too_long: 位置信息太长
+    rating_vote:
+      comment_required: 需要提供评论
+      invalid_rating: 无效的评分值
+    response_template:
+      invalid_type: 无效的模板类型
+      duplicate: 已存在相同的模板
+    settings:
+      mascot:
+        invalid: 无效的吉祥物图片
+      theme:
+        invalid_color: 无效的颜色代码
+    tag:
+      reserved: 此标签名称已被保留
+      restricted: 此标签受限制
+      too_short: 标签名称太短
+      too_long: 标签名称太长
+    user:
+      username:
+        taken: 此用户名已被使用
+        invalid: 用户名包含无效字符
+      email:
+        invalid: 无效的电子邮件地址
+      password:
+        too_short: 密码太短
+        too_weak: 密码强度不够
+      suspended: 账号已被暂停
+      deleted: 账号已被删除
+      deleted_user:
+        name: '[已删除用户]'
+      setting:
+        invalid_hex: 不是有效的十六进制颜色
+        invalid_rss: 不是有效的 RSS/Atom 源
+    users:
+      suspended: 账号已被暂停
+      deleted: 账号已被删除
+    webhook:
+      invalid_url: 无效的 webhook URL
+      duplicate: 已存在相同的 webhook 配置 

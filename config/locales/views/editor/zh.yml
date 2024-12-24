@@ -1,0 +1,28 @@
+---
+zh:
+  views:
+    editor:
+      meta:
+        title: 编辑文章
+      heading:
+        new: 新文章
+      create: 创建文章
+      close:
+        icon: 关闭
+        title: 关闭编辑器
+      cover_image:
+        add: 添加封面图片
+        change: 更改
+      edit: 编辑
+      modes: 查看文章模式
+      new_title: 在此输入新文章标题...
+      preview: 预览
+      video:
+        progress:
+          heading: "⏳ 视频转码进行中 ⏳"
+          notice_1: 处理完成后您将收到一封电子邮件。
+          notice_2: 这是一篇普通的未发布文章。添加标题/标签/正文等内容，等视频处理完成后再标记为已发布。
+        submit_image:
+          button: 提交更改
+          text: '预览图片 URL：'
+          placeholder: 新缩略图 URL 

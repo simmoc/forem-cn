@@ -1,0 +1,44 @@
+---
+zh:
+  views:
+    liquids:
+      github:
+        view: 在 GitHub 上查看
+      medium:
+        logo: Medium 标志
+      poll:
+        show_results: 直接查看结果
+      reddit:
+        author: '作者：%{author}'
+        see: 查看完整文章
+      stackexchange:
+        answer:
+          text_html: "%{answer} 回复：%{title}"
+          answer: 回答
+        answers: '回答数：%{count}'
+        comments: '评论数：%{count}'
+        open:
+          answer: 打开完整回答
+          article: 打开完整文章
+          question: 打开完整问题
+      twitter:
+        view: 在 X 上查看
+      user_subscription:
+        confirm:
+          subtitle: 确认订阅
+          button_text: 确认订阅
+          cancel_text: 取消
+          text_html: "您将与 %{username} 分享您的电子邮件地址、用户名、姓名和 %{community} 个人资料 URL。一旦确认，此操作无法撤销。"
+        logged_out: "您必须先登录 %{community}。"
+        sign_in: 登录
+        subscribe:
+          apple:
+            button: 订阅
+            desc_html: "您好！看起来您在创建 %{community} 账号时使用了 Apple 的私人中继电子邮件地址。如果您想订阅，请先%{update}为其他电子邮件地址。"
+            update: 在设置中更新您的电子邮件地址
+          button: 订阅
+          desc_html: "您将使用与您的 %{community} 账号关联的电子邮件地址进行订阅。如需使用其他电子邮件地址，您可以%{update}。"
+          update: 在设置中更新您的电子邮件地址
+      wikipedia:
+        logo: 维基百科标志
+        view: 在维基百科上查看 

@@ -1,0 +1,70 @@
+---
+zh:
+  views:
+    settings:
+      meta:
+        title: 设置
+      account:
+        connect: 关联 %{provider} 账号
+        emails: 账号邮箱
+        primary: 主要邮箱
+        provider_email: "%{provider} 邮箱"
+        provider_profile: "%{provider} 个人资料设置"
+        delete:
+          heading: 删除账号
+          desc1: '删除您的账号将会：'
+          desc1a: |
+            删除您的个人资料以及所有身份验证关联。
+
+            这不包括应用程序权限。您需要自行删除它们：
+          desc1b: 删除您的所有内容，如文章、评论或阅读列表。
+          desc1c: 您的用户名将可供其他人使用。
+          desc2_html: 请%{provide}以完全删除您的账号。
+          provide: 提供一个邮箱
+      billing:
+        heading: 账单设置
+        desc: 管理您的账单信息和订阅
+        cancel: 取消订阅
+        current: 当前计划
+        status: 状态
+        expires: 到期时间
+        history: 账单历史
+        loading: 正在加载账单信息...
+        subscription:
+          active: 活跃
+          cancelled: 已取消
+          expired: 已过期
+          trialing: 试用中
+      branding:
+        heading: 品牌设置
+        brand_color1: 品牌颜色 1
+        brand_color2: 品牌颜色 2
+        logo: 标志
+        save: 保存品牌设置
+      extensions:
+        heading: 扩展设置
+        editor: 编辑器
+        general: 通用
+        rss: RSS
+      password:
+        heading: 设置新密码
+        desc_html: |-
+          如果您的账号是使用社交账号认证创建的，您可能希望添加邮箱登录。
+          如果您使用社交媒体账号注册，<a href="%{path}">
+          请重置密码</a>以启用主要邮箱地址（%{email}）的登录。
+          请注意，邮箱登录是社交登录的补充而不是替代，
+          因此您已验证的社交账号将继续与您的账号关联。
+        current: 当前密码
+        confirm: 确认新密码
+        new: 密码
+        submit: 设置新密码
+      previous: 已存在使用该社交账号授权的账号。
+      tab:
+        Profile: 个人资料
+        Customization: 个性化
+        Notifications: 通知
+        Account: 账号
+        Billing: 账单
+        Organization: 组织
+        Extensions: 扩展
+      save_profile: 保存个人资料信息 

@@ -1,0 +1,58 @@
+---
+zh:
+  views:
+    listings:
+      meta:
+        description: "%{community} 列表"
+      heading: 列表
+      back: 返回
+      delete:
+        subtitle: 您确定要删除此列表吗？
+        description:
+          text_html: 此操作无法撤销，也许您只是想要%{action}？
+          edit: 编辑
+          unpublish: 取消发布
+        edit: 编辑
+        submit: 删除
+        unpublish: 取消发布
+      edit:
+        heading: 编辑列表
+        bump:
+          subtitle: 提升您的列表
+      form:
+        category:
+          subtitle: 类别
+          description: 选择最合适的类别。
+        content:
+          subtitle: 内容
+          description: 您可以使用 Markdown 格式。
+        expires:
+          subtitle: 过期时间
+          description: 列表将在发布或提升后 30 天过期。
+        location:
+          subtitle: 地点
+          description: 如果相关，请添加地点。
+          placeholder: 任何地点...
+        organization:
+          subtitle: 组织
+          description: 您想以个人身份还是组织身份发布此列表？
+        tags:
+          placeholder: 最多添加 8 个标签...
+        title:
+          placeholder: 最多 128 个字符，纯文本
+      nav:
+        aria_label: 列表
+        create: 创建
+        manage: 管理
+      new:
+        meta:
+          title: 新列表
+        heading: 创建社区列表
+        buy: 购买更多
+        disclaimer:
+          subtitle: 免责声明
+          description1: "%{community} 管理员可能会修改标签和类别以确保准确性。我们也可能会下架不当列表并退款。"
+          description2: 列表在发布或"提升"后 30 天过期。
+        organization: 组织积分
+        personal: 个人积分
+      preview_icon: DEV 标志 

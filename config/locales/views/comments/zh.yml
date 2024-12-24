@@ -1,0 +1,80 @@
+---
+zh:
+  views:
+    comments:
+      meta:
+        title_root: "%{title} 的讨论"
+        description: 来自社区的文章
+        og:
+          title: "%{title} 的讨论"
+          title_rel: "%{root} — %{site}"
+          title_root: "[讨论] %{title} — %{site}"
+          description: "%{site} 评论"
+      parent:
+        subtitle_html: "%{start}讨论：%{end}%{title}"
+        metadata_html: "%{name}%{on}"
+        date: " 于 %{date}"
+        full: 完整讨论
+        read: 阅读全文
+        view: 查看文章
+        view_full:
+          one: "查看完整讨论（%{count} 条评论）"
+          other: "查看完整讨论（%{count} 条评论）"
+        reply_html: "%{start}回复：%{end}%{title}"
+      delete:
+        heading: 确定要删除这条评论吗？
+        desc_html: "此操作无法撤销，也许您想要%{action}？"
+        action: 编辑
+        submit: 删除
+        edit: 编辑
+        cancel: 取消
+        comment_deleted: 评论已删除
+      collapse: 收起
+      edit: 编辑评论
+      edited:
+        text_html: "&bull; 编辑于 %{date}"
+        short_html: "&bull; 已编辑"
+      expand: 展开
+      visible_signed_in:
+        text_html: "部分评论可能仅对已登录用户可见。%{sign_in}查看所有评论。"
+        sign_in: "登录以"
+      hidden:
+        text_html: "部分评论已被文章作者隐藏 - %{info}"
+        info: "了解更多"
+        comment_hidden: 评论已被文章作者隐藏
+      hider:
+        description_html: "确定要隐藏这条评论吗？它将在您的文章中被隐藏，但仍可通过评论的%{permalink}查看。"
+        hide_child: 同时隐藏子评论
+        note_html: "如需进一步操作，您可以考虑屏蔽此人和/或%{reporting}"
+      footer:
+        heart:
+          aria_label: 点赞
+          title: 点赞
+          icon: '点赞评论：'
+          count_html: "%{num}%{likes}"
+          text: 点赞
+        reply:
+          aria_label: 回复评论...
+          icon: 评论按钮
+          done: 已回复
+          text: 回复
+          placeholder: 回复...
+        thread:
+          icon: 主题
+          text: 主题
+        view:
+          icon: 查看按钮
+          text: 查看
+        subscribe:
+          icon: 订阅按钮
+          text: 订阅评论
+      count:
+        one: "%{count} 条评论"
+        other: "%{count} 条评论"
+      empty: 新评论
+      add: "添加评论"
+      summary:
+        count_html:
+          one: "%{count}%{start}\_条评论%{end}"
+          other: "%{count}%{start}\_条评论%{end}"
+        title: 评论 

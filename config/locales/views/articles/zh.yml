@@ -1,0 +1,43 @@
+---
+zh:
+  views:
+    articles:
+      meta:
+        description: 来自社区的文章
+      actions:
+        aria_label: 文章操作
+      comments:
+        aria_label: 为文章添加评论 - %{title}
+      cover:
+        aria_label: "%{title} 的封面图片"
+      edit:
+        aria_label: 编辑文章
+      feed:
+        aria_label: 文章列表
+        subtitle: 文章
+        empty: 没有找到文章
+        pinned: 置顶
+        latest: 最新
+        relevant: 相关
+        top: 热门
+        aria_filter: 文章过滤器
+      filters:
+        subtitle: 过滤器
+        week: 本周
+        month: 本月
+        year: 今年
+        infinity: 所有时间
+        latest: 最新
+      info:
+        aria_label: 文章信息
+      listing:
+        aria_label: 列表
+      missing: 文章不再可用
+      published_html: 发布于 %{date}
+      scheduled_html: 计划发布于 %{date}
+      sign_in_for_full_latest_html: 部分最新文章仅对会员可见。<a href="%{link}">登录</a>查看所有最新文章。
+      read_next: 接下来阅读
+      reading_time:
+        one: "1 分钟阅读"
+        other: "%{count} 分钟阅读"
+      right_nav: 作者详情 

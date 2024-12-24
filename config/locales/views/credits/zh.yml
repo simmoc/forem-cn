@@ -1,0 +1,58 @@
+---
+zh:
+  views:
+    credits:
+      meta:
+        title: 积分
+      ledger:
+        class:
+          listing: 列表
+        category: 类别
+        item: 项目
+        cost: 费用（积分）
+        date: 日期
+        misc: 其他项目
+      listing:
+        create: 创建列表
+        dashboard: 前往列表仪表板
+      new:
+        meta:
+          title: 购买积分
+        heading: 为 @%{name} 购买积分
+        hook:
+          text_html: 积分用于%{listings}以及即将推出的产品和服务。
+          listings: "%{community}列表"
+        form:
+          amount:
+            label: 购买数量
+            placeholder: 输入任意数量
+          method:
+            label: 支付方式
+            number: "**** **** **** %{last}"
+            exp: "%{mm}/%{yy}"
+            add: 添加新卡
+          submit: 完成购买
+          submitting: 提交中...
+          note_org: "*所有组织管理员都可以访问组织拥有的积分"
+        switch:
+          org: 切换到%{name}
+          user: 切换到个人购买
+        status:
+          subtitle:
+            org: "%{name}有多少积分？"
+            user: 我当前有多少积分？
+          desc:
+            org: "%{name}有 %{count} 个积分。"
+            user: 您有 %{count} 个积分。
+        how:
+          subtitle: 如何获得积分？
+          desc_html: 会员每获得一个个人资料徽章就可以获得<strong>5个积分</strong>。
+      purchase: 购买额外积分
+      tag: '标签：%{name}'
+      status:
+        user:
+          one: "您有 %{count} 个个人积分可以使用"
+          other: "您有 %{count} 个个人积分可以使用"
+        org_html:
+          one: "%{name}有 %{num} 个积分可以使用"
+          other: "%{name}有 %{num} 个积分可以使用" 
